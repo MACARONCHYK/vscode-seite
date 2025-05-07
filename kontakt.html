@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visual Studio Code – Kontakt</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+  <!-- Navigation -->
+  <header class="w-full px-6 py-4 flex justify-between items-center shadow-md">
+    <h1 class="text-xl font-semibold">Visual Studio Code</h1>
+    <nav class="space-x-4">
+      <a href="index.html" class="text-gray-700 hover:underline">Startseite</a>
+      <a href="features.html" class="text-gray-700 hover:underline">Features</a>
+      <a href="extensions.html" class="text-gray-700 hover:underline">Erweiterungen</a>
+      <a href="download.html" class="text-gray-700 hover:underline">Download</a>
+      <a href="kontakt.html" class="text-blue-600 font-semibold underline">Kontakt</a>
+      <div class="inline-flex items-center space-x-2">
+        <a href="index-uk.html" class="text-gray-700 hover:underline">Українська</a> |
+        <a href="index.html" class="text-gray-700 hover:underline">Deutsch</a>
+      </div>      
+    </nav>
+  </header>
+
+  <!-- Titel -->
+  <section class="text-center py-20 bg-gray-100">
+    <h2 class="text-4xl font-bold mb-4">Kontaktiere uns</h2>
+    <p class="text-lg text-gray-700">Fragen oder Feedback? Wir freuen uns, von dir zu hören.</p>
+  </section>
+
+  <!-- Kontaktformular -->
+  <section class="py-16 px-6 max-w-2xl mx-auto">
+    <form class="space-y-6">
+      <div>
+        <label for="name" class="block text-sm font-medium mb-1">Name</label>
+        <input type="text" id="name" name="name" required class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+      </div>
+      <div>
+        <label for="email" class="block text-sm font-medium mb-1">E-Mail-Adresse</label>
+        <input type="email" id="email" name="email" required class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+      </div>
+      <div>
+        <label for="message" class="block text-sm font-medium mb-1">Nachricht</label>
+        <textarea id="message" name="message" rows="5" required class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+      </div>
+      <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700">Absenden</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-center py-6 text-sm text-gray-600">
+    © 2025 Visual Studio Code (Inoffizielle Seite). Alle Rechte vorbehalten.
+  </footer>
+
+</body>
+</html>
